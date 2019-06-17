@@ -1,0 +1,25 @@
+.parent, .child{
+  text-align:center;
+}
+.parent{
+  display: flex;
+  height: 100vh;
+}
+.child{
+  width: 100vh;
+  height: 300px;
+  margin: auto;
+}
+.child a{
+  font-size: 3em;
+  color: black;
+  margin-right: 40px;
+}
+.child h1{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 50px;
+
+}
+.child p{
+  font-family: 'Roboto Condensed', sans-serif;
+}
