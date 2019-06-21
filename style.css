@@ -88,6 +88,12 @@ body{
         background-size: cover;
       
       }
+      .main h1{
+        font-family: 'Roboto', sans-serif; 
+        font-size: 30px;
+      
+      }
+
 
      }
 
