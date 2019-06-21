@@ -25,18 +25,29 @@ body{
  transform: translateX(-50%) translateY(-50%);
  text-align: center;
 }
+.project{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ -moz-transform: translateX(-50%) translateY(-50%);
+ -webkit-transform: translateX(-50%) translateY(-50%);
+ transform: translateX(-50%) translateY(-50%);
+ text-align: center;
+
+}
 .main a{
   font-size: 3em;
   color: black;
   margin-right: 40px;
 }
 .main h1{
-  font-family: 'Raleway', sans-serif; 
+  font-family: 'Roboto', sans-serif; 
   font-size: 50px;
 
 }
 .main p{
-  font-family: 'Raleway', sans-serif; 
+  font-family: 'Raleway', sans-serif;
+
 }
 .profile-pic{
   display: block;
@@ -49,6 +60,14 @@ body{
   background-size: cover;
 
 }
+.grow:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
 
+.full-pic{
+  background-image: url()
+}
 
 
