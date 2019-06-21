@@ -67,9 +67,11 @@ body{
   right: 0;
   padding-right: 25px;
   font-family:'Roboto', sans-serif;
+  font-size: 0.9em;
 }
 .bottom a{
   color: red;
+
 }
 
 
