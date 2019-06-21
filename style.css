@@ -73,5 +73,22 @@ body{
   color: red;
 
 }
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+      .profile-pic{
+        display: block;
+        margin: auto;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-image: url("profile.jpg");
+        background-position: center center;
+        background-size: cover;
+      
+      }
+
+     }
 
 
