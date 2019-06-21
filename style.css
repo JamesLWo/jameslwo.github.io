@@ -25,7 +25,7 @@ body{
  transform: translateX(-50%) translateY(-50%);
  text-align: center;
 }
-.project{
+.project, .about{
  position: absolute;
  top: 50%;
  left: 50%;
